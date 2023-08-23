@@ -1,6 +1,6 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O software "PROJETO-PONTO" é uma ferramenta que permite registrar e controlar as horas trabalhadas pelos funcionários de uma empresa. Com o software de bater ponto no trabalho, os funcionários podem marcar o início e o fim da jornada, as pausas e as horas extras, usando um dispositivo móvel. O software "PROJETO-PONTO" é uma solução moderna e eficiente para otimizar o controle de presença e o gerenciamento de equipes.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
