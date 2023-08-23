@@ -35,9 +35,3 @@ O público-alvo desse sistema de ponto eletrônico móvel são as empresas mais 
 Além das empresas em busca de uma abordagem mais eficiente para o controle de presença, o aplicativo de ponto eletrônico também atende às demandas de organizações comprometidas com a sustentabilidade e a responsabilidade corporativa. Essas empresas valorizam a redução de desperdício de papel e a diminuição do impacto ambiental, optando por soluções digitais que não apenas simplificam processos, mas também alinham-se com suas políticas de sustentabilidade.
 
 Portanto, o público-alvo abrange tanto empresas que buscam eficiência operacional quanto aquelas com foco em práticas sustentáveis, oferecendo um sistema que se adequa à dinâmica moderna de trabalho e aos valores corporativos contemporâneos.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
