@@ -30,10 +30,11 @@ Por fim, o desenvolvimento de um sistema de ponto eletrônico móvel com recurso
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público-alvo desse sistema de ponto eletrônico móvel são as empresas mais modernas e seus colaboradores interessados em otimizar a gestão de presença e horários. Direcionado a empresas de diversos segmentos e tamanhos, o aplicativo visa atender desde pequenos empreendimentos até grandes corporações que buscam automatizar e simplificar a marcação de ponto dos funcionários. Os colaboradores, por sua vez, também são beneficiados, especialmente aqueles que atuam em modalidades flexíveis de trabalho. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Além das empresas em busca de uma abordagem mais eficiente para o controle de presença, o aplicativo de ponto eletrônico também atende às demandas de organizações comprometidas com a sustentabilidade e a responsabilidade corporativa. Essas empresas valorizam a redução de desperdício de papel e a diminuição do impacto ambiental, optando por soluções digitais que não apenas simplificam processos, mas também alinham-se com suas políticas de sustentabilidade.
+
+Portanto, o público-alvo abrange tanto empresas que buscam eficiência operacional quanto aquelas com foco em práticas sustentáveis, oferecendo um sistema que se adequa à dinâmica moderna de trabalho e aos valores corporativos contemporâneos.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
