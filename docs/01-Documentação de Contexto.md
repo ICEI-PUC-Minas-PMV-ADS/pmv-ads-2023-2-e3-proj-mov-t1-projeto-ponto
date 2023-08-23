@@ -22,18 +22,19 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 ### Objetivos Específicos:
 * Registrar a quantidade de horas trabalhadas por cada funcionário diariamente
 * Mostrar o banco de horas de cada funcionário
-* Fornecer relatórios para controle do empregador
+* Fornecer relatórios para sobre frequência e pontualidade para controle do empregador
 * Fornecer sistema de acumulo de tokens que possam ser convertidos em recompensas para os funcionarios 
 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A adoção de um sistema de ponto eletrônico móvel visa mitigar erros e imprecisões associados ao registro manual de horários de funcionários nas empresas. A captura dos horários de entrada e saída em tempo real garante maior fidedignidade das informações e permite aos colaboradores e às empresas maior controle do banco de horas.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+O cálculo automático desse banco de horas é crucial tanto para os colaboradores  pois permite o acompanhamento do saldo de horas trabalhadas, tornando mais fácil a negociação de compensações de tempo e otimizando a gestão de carga horária por parte da administração.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Por outro lado, os relatórios sobre a frequência e a pontualidade dos funcionários fornece aos gestores das empresas uma visão clara do desempenho de suas equipes, uma vez que, através dessas informações é possível identificar os colaboradores mais empenhados nesse quesito além de detectar possíveis problemas e setores que precisam de melhoria.
+
+Por fim, o desenvolvimento de um sistema de ponto eletrônico móvel com recursos de registro preciso, gerenciamento de banco de horas, relatórios analíticos e um sistema de recompensas inovador tem potencial de aumentar a eficiência operacional, melhorar a pontualidade e frequência dos funcionários, elevar o engajamento da equipe e aprimorar o ambiente de trabalho como um todo. Essa abordagem moderna e tecnológica contribuirá para o crescimento da empresa e para o bem-estar de seus empregados.
 
 ## Público-Alvo
 
