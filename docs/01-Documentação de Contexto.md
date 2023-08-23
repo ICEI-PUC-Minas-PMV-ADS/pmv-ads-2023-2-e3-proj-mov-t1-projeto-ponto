@@ -3,16 +3,8 @@
 O software "PROJETO-PONTO" é uma ferramenta que permite registrar e controlar as horas trabalhadas pelos funcionários de uma empresa. Com o software de bater ponto no trabalho, os funcionários podem marcar o início e o fim da jornada, as pausas e as horas extras, usando um dispositivo móvel. O software "PROJETO-PONTO" é uma solução moderna e eficiente para otimizar o controle de presença e o gerenciamento de equipes.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O problema que esse software irá resolver é a dificuldade de registrar e monitorar as horas trabalhadas pelos funcionários de uma empresa, especialmente em situações de trabalho remoto, flexível ou híbrido. 
+O contexto que esse software será usado é o de empresas que buscam modernizar e automatizar o processo de controle de ponto, garantindo mais precisão, segurança e transparência. O software será usado por funcionários que precisam registrar suas horas trabalhadas de forma simples e rápida.
 
 ## Objetivos
 
