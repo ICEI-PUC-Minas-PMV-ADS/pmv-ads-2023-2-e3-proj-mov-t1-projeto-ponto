@@ -16,12 +16,15 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+### Objetivo Geral:
+* O objetivo geral desse trabalho é construir um sistema de controle de ponto que permita o registro do horário de entrada e saída dos funcionarios de empresas de forma simples e precisa.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+### Objetivos Específicos:
+* Registrar a quantidade de horas trabalhadas por cada funcionário diariamente
+* Mostrar o banco de horas de cada funcionário
+* Fornecer relatórios para controle do empregador
+* Fornecer sistema de acumulo de tokens que possam ser convertidos em recompensas para os funcionarios 
+
 
 ## Justificativa
 
