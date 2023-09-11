@@ -8,12 +8,11 @@ Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Defini�
 ## Relação de Ambientes de Trabalho
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e especificados na tabela a seguir.
-| Ambiente | Plataforma | 
-|---|---|---|
-| Repositório do código fonte | GitHub |
-|---|---|---|
+
+| Ambiente  | Plataforma |
+| ------------- | ------------- |
+| Repositório do código fonte  | GitHub |
 | Documentação  | GitHub |
-|---|---|---|
 | Divisão de tarefas  | GitHub (Projects) |
 
 ## Controle de Versão
