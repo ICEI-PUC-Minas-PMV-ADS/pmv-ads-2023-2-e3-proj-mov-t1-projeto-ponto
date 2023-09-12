@@ -50,7 +50,14 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
+- Scrum Master: Felipe Ferreira;
+- Product Owner: Will Machado;
+- Equipe de Desenvolvimento: Amanda Silva, Lucas Dias, Leonardo Souza;
+- Equipe de Design: Ian Correa, Vinicius Gonçalves, Mateus Silva.
+
+
+<!--Apresente a divisão de papéis entre os membros do grupo. 
 
 Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
 - Scrum Master: Felipe Domingos;
@@ -61,11 +68,13 @@ Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
 > - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles) -->
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+O projeto está sendo implementado seguindo os princípios do Scrum com as sprints organizadas de acordo com as etapas do projeto, reuniões recorrentes para planejamento das sprints, divisão de tarefas e revisões. Acompanhamento do fluxo de trabalho utilizando o Kamban Board, além de entregas parciais conforme previsto em cada etapa do projeto.
+
+<!--Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
  
 > **Links Úteis**:
 > - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
@@ -73,11 +82,21 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 > - [Project management, made simple](https://github.com/features/project-management/)
 > - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
 > - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+> - [Tutorial Slack](https://slack.com/intl/en-br/) -->
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+As principais ferramentas utilizadas no desenvolvimento do projeto são:
+
+- Editor de código: VS Code
+- Ferramenta de versionamento: Github Desktop
+- Ferramentas de comunicação: Teams / Discord
+- Gerenciamento de tarefas: Github
+- Ferramentas de modelagem: Mockups
+
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. A ferramenta de versionamento foi escolhida por facilitar o controle de versões e revisão de commits. A comunicação via discord foi escolhida como uma forma de comunicação complementar para tornar a comunicação mais ágil. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+
+<!--As ferramentas empregadas no projeto são:
 
 - Editor de código.
 - Ferramentas de comunicação
@@ -89,4 +108,4 @@ Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justific
  
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
 > - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+> - [Github](https://github.com/) -->
