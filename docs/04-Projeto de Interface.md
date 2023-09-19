@@ -22,9 +22,10 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 ### Tela Login
-Autor/Responsável: 
+Autor/Responsável: Amanda
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Exemplo de Wireframe](<img width="163" alt="tela-login" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/108704270/c22004b0-839a-46ff-9a5b-c19bec3842dc">
+)
 
 ### Tela Registro de funcionarios
 Autor/Responsável: 
