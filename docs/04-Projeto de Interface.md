@@ -21,7 +21,28 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 > - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
+#Tela Login
+Autor/Responsável: 
+![Exemplo de Wireframe](img/wireframe-example.png)
 
+#Tela Registro de funcionarios
+Autor/Responsável: 
+![Exemplo de Wireframe](img/wireframe-example.png)
+
+#Tela Definição de senhas
+Autor/Responsável: 
+![Exemplo de Wireframe](img/wireframe-example.png)
+
+#Tela Perfil Funcionario
+Autor/Responsável: Vinicius Carneiro Gonçalves
+![Exemplo de Wireframe](img/Perfil-Funcionario.png)
+
+#Tela Histórico de Ponto
+Autor/Responsável: 
+![Exemplo de Wireframe](img/wireframe-example.png)
+
+#Tela Registro Admin
+Autor/Responsável: 
 ![Exemplo de Wireframe](img/wireframe-example.png)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
