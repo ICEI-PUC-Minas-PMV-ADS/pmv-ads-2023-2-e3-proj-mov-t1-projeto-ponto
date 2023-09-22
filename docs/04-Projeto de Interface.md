@@ -28,9 +28,9 @@ Autor/Responsável: Amanda
 
 
 ### Tela Registro de funcionarios
-Autor/Responsável: 
+Autor/Responsável: Ian Merlo Corrêa
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Exemplo de Wireframe](img/Tela%Registro%de%Funcionarios.png)
 
 ### Tela Definição de senhas
 Autor/Responsável: 
