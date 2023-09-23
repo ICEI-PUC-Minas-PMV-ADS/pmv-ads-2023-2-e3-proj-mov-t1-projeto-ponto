@@ -34,9 +34,9 @@ Autor/Responsável: Vinicius Carneiro Gonçalves
 ![Exemplo de Wireframe](img/Perfil-Funcionario.png)
 
 ### Tela Histórico de Ponto
-Autor/Responsável: 
+Autor/Responsável: Felipe Ferreira
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/78fccf32-cc8d-4d78-80da-c02afe4e185b)
 
 ### Tela Registro Admin
 Autor/Responsável: Leonardo Igor Araujo de Souza
