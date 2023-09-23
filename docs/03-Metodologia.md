@@ -59,6 +59,8 @@ Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum 
 
 O projeto está sendo implementado seguindo os princípios do Scrum com as sprints organizadas de acordo com as etapas do projeto, reuniões recorrentes para planejamento das sprints, divisão de tarefas e revisões. Acompanhamento do fluxo de trabalho utilizando o Kamban Board, além de entregas parciais conforme previsto em cada etapa do projeto.
 
+O quadro kanban que está sendo utilizado pode ser acessado através da URL(https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/474/views/2)
+
 <!--Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
  
 > **Links Úteis**:
