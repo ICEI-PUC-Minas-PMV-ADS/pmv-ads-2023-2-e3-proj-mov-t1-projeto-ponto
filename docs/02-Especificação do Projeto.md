@@ -91,7 +91,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|:--:|
 |RF-001| A aplicação deve permitir a realização de cadastro, login, edição e exclusão de perfil de empresa. | ALTA |
 |RF-002| A aplicação deve permitir a realização de cadastro, login, edição e exclusão de perfil de funcionário. | ALTA |
-|RF-003| A aplicação deve permitir o registro de entrada e saída de funcionários. | ALTA |
+|RF-003| A aplicação deve permitir o registro e visualização de entrada e saída de funcionários. | ALTA |
 |RF-004| A aplicação deve permitir a geração de relatórios de histórico de ponto. | MÉDIA |
 |RF-005| A aplicação deve registrar endereço do funcionário no momento em que o ponto é registrado. | BAIXA |
 |RF-006| A aplicação deve registrar uma foto do funcionário no momento em que o ponto é registrado. | BAIXA |
@@ -108,7 +108,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 8s |  BAIXA | 
+|RNF-002| Deve ser estável durante o registro de pontos e utilização em geral pelo usuário |  MÉDIA | 
 |RNF-003| A aplicação deve ter bom nível de contraste entre os elementos da tela em conformidade. | MÉDIA |
 
 
