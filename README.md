@@ -1,10 +1,10 @@
 # PROJETO PONTO
 
-`CURSO`
+`CURSO` - Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`DISCIPLINA` - Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio - Turma 01 - 2023/2
 
-`SEMESTRE`
+`SEMESTRE` - Eixo 3
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
