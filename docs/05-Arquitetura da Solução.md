@@ -52,6 +52,13 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
 > - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
 
+## Indicadores de Desempenho
+
+Elaboramos um conjunto de métricas para acompanhar o desempenho do projeto.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/32a8ddab-1cdd-4e3d-b880-6882c6ce8145)
+
+
 ## Qualidade de Software
 
 Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
