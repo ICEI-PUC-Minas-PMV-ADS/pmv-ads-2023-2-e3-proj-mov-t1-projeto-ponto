@@ -26,7 +26,7 @@ Autor/Responsável: Ian Merlo Corrêa
 ### Tela Definição de senhas
 Autor/Responsável: Lucas Russo
 
-[Tela de definição de senhas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/44789183/fa6e9df9-5859-4554-b6ea-098fc7d0212b)
+![Tela de definição de senhas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/44789183/fa6e9df9-5859-4554-b6ea-098fc7d0212b)
 
 ### Tela Perfil Funcionario!
 
