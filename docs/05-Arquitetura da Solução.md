@@ -56,8 +56,32 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 Elaboramos um conjunto de métricas para acompanhar o desempenho do projeto.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/32a8ddab-1cdd-4e3d-b880-6882c6ce8145)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/32a8ddab-1cdd-4e3d-b880-6882c6ce8145)  
 
+>- Empresas Cadastradas
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/4bf1e33b-5b6c-4588-ba83-3f3f0aa7d187" width="800" height="400" />  
+  
+
+>- Funcionários Cadastrados
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/5d20fd15-8e7c-4e21-ad70-faa9e97cd2c0" width="800" height="400" />  
+  
+
+>- Acessos / Cadastros
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/e497abe8-d949-43f8-96c1-70ffad19dc92" width="800" height="400" />  
+  
+
+>- Incidentes
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/71a5202c-f1c4-4ab0-a0b4-2f6dce52e7ed" width="800" height="400" />  
+  
+
+>- Registros
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/7dc77bf2-5e98-45c7-aef7-18bd706352c8" width="800" height="400" />  
+  
 
 ## Qualidade de Software
 
