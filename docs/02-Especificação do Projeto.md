@@ -61,6 +61,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Jessica Santos      | Uma funcionalidade para controlar minhas horas extras.   | Para que possa gerenciar minhas horas no banco ou de trabalho.|
 |Rafael Rodrigues    | Uma funcionalidade em que possa visualizar os pontos registrados com informações pertinentes. | Para que possa planejar, entender e justificar meus horários |
 |Rafael Rodrigues    |Acesso simples e direto ao ponto contendo data, hora e local em que foi batido. | Para controlar meinhas batidas de pontos diárias. |
+|Nicolas Ardigo    |Acesso simples e direto ao ponto de todos funcionarios registrados. | Para conseguir gerenciar melhor as horas trabalhadas de cada funcionário. |
 
 ## Modelagem do Processo de Negócio 
 
