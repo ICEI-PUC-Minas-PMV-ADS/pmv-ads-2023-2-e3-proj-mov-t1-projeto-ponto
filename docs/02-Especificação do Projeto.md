@@ -37,6 +37,18 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |:---------------|:------------------|:---------------------|:-----------------|:-----------------|:------------------------|
 |42 anos |Contador. |Contador em uma empresa de vendas. | Cuidar e gerenciar os orçamentos e lucros da empresa.| Visualizar e planejar suas horas contratadas e extras.| Visualizar e conseguir ter acesso aos pontos que foram registrados, com horario, data e local.|
 
+
+**Nicolas Ardigo**
+<div align="left">
+<img src="https://i.pinimg.com/236x/ef/a4/3e/efa43e3535f44da014d172f72b7a68c2.jpg" width="200px" />
+</div>
+
+
+| Idade    |Ocupação  | Participação    | Motivações | Dificuldades | História |  
+|:---------------|:------------------|:---------------------|:-----------------|:-----------------|:------------------------|
+|22 anos |Rh. | Integrante da equipe de rh de uma empresa. | Gerenciar as pessoas que serão e são contratadas.| Visualizar as horas dos funcionários.| Visualizar e conseguir ter acesso aos pontos que foram registrados, de cada funcionário.|
+
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
