@@ -14,7 +14,8 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 ## Modelo ER
 
-![Diagrama ER de banco de dados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/44789183/d03f0072-8bbc-4375-8257-831aba34ab70)
+![Diagrama ER de banco de dados (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/44789183/c5f5efaf-6f59-40cd-ad6b-84dd06defdb1)
+
 
 ## Esquema Relacional
 
