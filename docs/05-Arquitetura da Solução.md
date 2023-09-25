@@ -21,7 +21,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
-![Diagrama de Classes](docs/img/esquemarelacional.png)
+![Diagrama de Classes](img/esquemarelacional.png)
 
 
 > - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
