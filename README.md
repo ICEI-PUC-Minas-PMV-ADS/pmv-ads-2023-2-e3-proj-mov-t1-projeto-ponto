@@ -1,12 +1,12 @@
 # PROJETO PONTO
 
-`CURSO`
+`CURSO` - Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`DISCIPLINA` - Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio - Turma 01 - 2023/2
 
-`SEMESTRE`
+`SEMESTRE` - Eixo 3
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O software "PROJETO-PONTO" é uma ferramenta que permite registrar e controlar as horas trabalhadas pelos funcionários de uma empresa. Com o software de bater ponto no trabalho, os funcionários podem marcar o início e o fim da jornada, as pausas e as horas extras, usando um dispositivo móvel. O software "PROJETO-PONTO" é uma solução moderna e eficiente para otimizar o controle de presença e o gerenciamento de equipes.
 
 ## Integrantes
 
