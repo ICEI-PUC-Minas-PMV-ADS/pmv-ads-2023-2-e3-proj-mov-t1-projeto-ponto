@@ -1,18 +1,15 @@
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 import WorkerProfile from './views/workerProfile/index'
 
 export default function App() {
   return (
-    <View>
-      <WorkerProfile/>
+    <View style={ styles.container }>
+      <WorkerProfile style={ styles.container } />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
