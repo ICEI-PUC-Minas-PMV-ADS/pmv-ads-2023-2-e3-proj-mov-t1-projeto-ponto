@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { UserServices } from "../../services/user/userServices";
 
-export default function App() {
+export const RegisterWorker = () => {
   const [msgErrorRegister, setMsgErrorRegister] = useState("");
 
   const registerUser = async (e) => {
@@ -19,4 +19,4 @@ export default function App() {
       <StatusBar style="auto" />
     </View>
   );
-}
+};

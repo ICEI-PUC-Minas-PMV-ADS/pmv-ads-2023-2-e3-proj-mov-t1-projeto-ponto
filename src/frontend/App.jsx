@@ -1,10 +1,10 @@
 import { StatusBar, View, Text } from "react-native";
-import { Login, WorkerProfile } from "../frontend/views";
+import { Login, WorkerProfile, PointHistory } from "../frontend/views";
 
 export default function App() {
   return (
     <View>
-      <Login />
+      <PointHistory />
       {/* <Text>Teste do app</Text> */}
       {/* <WorkerProfile /> */}
     </View>
