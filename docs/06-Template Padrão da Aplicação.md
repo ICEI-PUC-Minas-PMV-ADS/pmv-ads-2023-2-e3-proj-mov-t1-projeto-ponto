@@ -14,6 +14,10 @@ Além do microfundamento da etapa 3, também estudei a primeira unidade do micro
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/27f9806b-9a65-482e-adab-f141831c988f)
 
+- Avanço na tela de Histórico:  
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/fe318097-f266-4a58-858c-891b08397680)
+
 
 > **Links Úteis**:
 >
