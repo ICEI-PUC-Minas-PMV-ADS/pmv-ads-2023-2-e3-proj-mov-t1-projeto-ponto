@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     paddingTop: 50,
     paddingLeft: 15,
-    
+    paddingBottom: 100,
   },
   text: {
     fontSize: 30,
@@ -21,6 +21,17 @@ export const styles = StyleSheet.create({
     /* flex: 1, */
     margin: 5, 
    
+  },
+  searchBar: {
+    padding: 10,
+    flexDirection: "row", 
+    alignItems: "center",
+  },
+  nameInput: {
+    /* margin: 5, */
+    width: 250,
+    borderBottomWidth: 1,
+    borderBottomColor: "#B2BEB5",
   },
 
 });
