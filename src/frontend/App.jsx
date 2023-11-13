@@ -1,7 +1,9 @@
 import { StatusBar, View, Text } from "react-native";
-import { Login, WorkerProfile, PointHistory, PasswordRegister } from "../frontend/views";
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { Login, WorkerProfile, PointHistory } from "../frontend/views";
+import { PasswordRegister } from "./views/PasswordRegister/PasswordRegister";
+import { RegisterWorker } from "./views/RegisterWorker/RegisterWorker";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 const Stack = createNativeStackNavigator();
 

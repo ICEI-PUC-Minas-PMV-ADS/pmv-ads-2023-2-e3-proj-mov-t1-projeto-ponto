@@ -1,3 +1,3 @@
 export * from "./Input/Input";
-export * from "./DayPointsHistory/index";
+export * from "./DayPointsHistory/DayPointsHistory";
 export * from "./Button/Button";
