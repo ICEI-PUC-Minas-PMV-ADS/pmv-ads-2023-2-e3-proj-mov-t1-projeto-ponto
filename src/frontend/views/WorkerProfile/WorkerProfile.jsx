@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { View, Text, Image, Button, TextInput, ScrollView } from "react-native";
 import { BsClockHistory } from "react-icons/bs";
 import { SiMicrosoftpowerpoint } from "react-icons/si";
-import DayPointsHistory from "../../components/DayPointsHistory/index";
+import DayPointsHistory from "../../components/DayPointsHistory1/DayPointsHistory";
 import { styles } from "./styles";
 
 export const WorkerProfile = () => {
