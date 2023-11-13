@@ -1,7 +1,7 @@
 
 import { View, StyleSheet, Text } from 'react-native';
 
-export default function App() {
+export default function DayPointsHistory() {
 
   return (
     <View>
