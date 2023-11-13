@@ -5,6 +5,7 @@ export default function App() {
   return (
     <View>
       <PointHistory />
+      {/* <WorkerProfile /> */}
       {/* <Text>Teste do app</Text> */}
       {/* <WorkerProfile /> */}
     </View>

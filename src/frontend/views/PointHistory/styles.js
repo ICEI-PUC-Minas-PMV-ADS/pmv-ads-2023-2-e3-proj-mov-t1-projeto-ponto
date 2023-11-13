@@ -33,5 +33,14 @@ export const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: "#B2BEB5",
   },
-
+  dayLabel: {
+    marginTop: 10,
+    width: 420,
+    borderBottomWidth: 1,
+    borderBottomColor: "#B2BEB5"
+  },
+  hourRegisted: {
+    marginTop: 5,
+    color: "gray"
+  }
 });

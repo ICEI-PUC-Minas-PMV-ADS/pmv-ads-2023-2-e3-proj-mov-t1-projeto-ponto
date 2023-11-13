@@ -26,7 +26,51 @@ export const PointHistory = () => {
         />
         <Button title="Buscar" color={"green"} />
       </View>
-      <StatusBar style="auto" />
+      <View>
+        <View>
+          <Text style={styles.dayLabel}>10/11/2023</Text>
+        </View>
+        <View>
+          <Text style={styles.hourRegisted}>08:00 {'>'} 12:00  </Text>
+          <Text style={styles.hourRegisted}>13:00 {'>'} 17:00  </Text>
+        </View>
+      </View>
+      <View>
+        <View>
+          <Text style={styles.dayLabel}>09/11/2023</Text>
+        </View>
+        <View>
+          <Text style={styles.hourRegisted}>08:00 {'>'} 12:00  </Text>
+          <Text style={styles.hourRegisted}>13:00 {'>'} 17:00  </Text>
+        </View>
+      </View>
+      <View>
+        <View>
+          <Text style={styles.dayLabel}>08/11/2023</Text>
+        </View>
+        <View>
+          <Text style={styles.hourRegisted}>08:00 {'>'} 12:00  </Text>
+          <Text style={styles.hourRegisted}>13:00 {'>'} 17:00  </Text>
+        </View>
+      </View>
+      <View>
+        <View>
+          <Text style={styles.dayLabel}>07/11/2023</Text>
+        </View>
+        <View>
+          <Text style={styles.hourRegisted}>08:00 {'>'} 12:00  </Text>
+          <Text style={styles.hourRegisted}>13:00 {'>'} 17:00  </Text>
+        </View>
+      </View>
+      <View>
+        <View>
+          <Text style={styles.dayLabel}>06/11/2023</Text>
+        </View>
+        <View>
+          <Text style={styles.hourRegisted}>08:00 {'>'} 12:00  </Text>
+          <Text style={styles.hourRegisted}>13:00 {'>'} 17:00  </Text>
+        </View>
+      </View>
     </View>
   );
 };
