@@ -10,6 +10,7 @@ export const WorkerProfile = () => {
   const [OutWork, setOutWork] = useState(true);
   const [pointTake, setPointTake] = useState(Date);
   const [pointEnd, setPointEnd] = useState(Date);
+  const [extraHour, setExtraHour] = useState(Date);
   const [justifyFault, setJustifyFault] = useState("");
 
   const startWork = () => {
@@ -69,7 +70,7 @@ export const WorkerProfile = () => {
           <Text style={{ fontSize: 20, fontWeight: "bold" }}>
             Total horas extras
           </Text>
-          <Text style={{ fontSize: 15, fontWeight: "bold" }}>19:00:00</Text>
+          <Text style={{ fontSize: 15, fontWeight: "bold" }}>{extraHour}</Text>
         </View>
         <View style={{ marginLeft: 20, marginRight: 20, borderBottomWidth: 1 }}>
           <Text
