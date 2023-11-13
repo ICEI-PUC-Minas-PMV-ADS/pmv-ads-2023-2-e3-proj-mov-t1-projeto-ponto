@@ -1,9 +1,8 @@
 import { SafeAreaView, Text, View, Image } from "react-native";
 import { Button, Input } from "../../components";
 import { styles } from "./styles";
-import { COLORS } from "../../constants";
 
-export const RegisterWorker = () => {
+export const Register = (props) => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.logoContainer}>
