@@ -1,4 +1,4 @@
-import { View } from "react-native";
+import { useState } from "react";
 import {
   Login,
   WorkerProfile,
@@ -17,13 +17,11 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName={isAdmim ? "Register" : "Login"}>
-        <View>
-          <Stack.Screen name="Login" component={Login} />
-          <Stack.Screen name="PasswordRegister" component={PasswordRegister} />
-          <Stack.Screen name="PointHistory" component={PointHistory} />
-          <Stack.Screen name="WorkerProfile" component={WorkerProfile} />
-          <Stack.Screen name="Register" component={Register} />
-        </View>
+        <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="PasswordRegister" component={PasswordRegister} />
+        <Stack.Screen name="PointHistory" component={PointHistory} />
+        <Stack.Screen name="WorkerProfile" component={WorkerProfile} />
+        <Stack.Screen name="Register" component={Register} />
       </Stack.Navigator>
     </NavigationContainer>
   );
