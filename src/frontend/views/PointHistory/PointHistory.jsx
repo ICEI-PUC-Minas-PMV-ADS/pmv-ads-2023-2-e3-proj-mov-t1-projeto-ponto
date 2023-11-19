@@ -1,8 +1,84 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View, Button, TextInput } from "react-native";
+import React, {useState} from "react";
+import { BsClockHistory } from "react-icons/bs";
+import { SiMicrosoftpowerpoint } from "react-icons/si";
+import { Text, View, Button, TextInput } from "react-native";
 import { styles } from "./styles";
 
 export const PointHistory = () => {
+  const [startDate, setStartDate] = useState("");
+  const [endDate, setEndDate] = useState("");
+  const [name, setName] = useState("");
+  const [historyData, setHistoryData] = useState([]);
+
+  const handleSearch = () => {
+    // lógica de busca
+    const exampleData = [
+      {
+        date: "10/11/2023",
+        hours: [
+          { start: "08:00", end: "12:00" },
+          { start: "13:00", end: "17:00" },
+        ],
+      },
+      {
+        date: "11/11/2023",
+        hours: [
+          { start: "08:00", end: "12:00" },
+          { start: "13:00", end: "17:00" },
+        ],
+      },
+      {
+        date: "12/11/2023",
+        hours: [
+          { start: "08:00", end: "12:00" },
+          { start: "13:00", end: "17:00" },
+        ],
+      },
+      {
+        date: "13/11/2023",
+        hours: [
+          { start: "08:00", end: "12:00" },
+          { start: "13:00", end: "17:00" },
+        ],
+      },
+      {
+        date: "14/11/2023",
+        hours: [
+          { start: "08:00", end: "12:00" },
+          { start: "13:00", end: "17:00" },
+        ],
+      },
+      {
+        date: "15/11/2023",
+        hours: [
+          { start: "08:00", end: "12:00" },
+          { start: "13:00", end: "17:00" },
+        ],
+      },
+
+      // Adicione mais dados conforme necessário
+    ];
+
+    setHistoryData(exampleData);
+  };
+
+  const renderHistory = () => {
+    return historyData.map((dayData, index) => (
+      <View key = {index}>
+        <View>
+          <Text style={styles.dayLabel}>{dayData.date}</Text>
+        </View>
+        <View>
+          {dayData.hours.map((hour, hourIndex) => (
+            <Text key={hourIndex} style={styles.hourRegisted}>
+              {`${hour.start} > ${hour.end}`}
+            </Text>
+          ))}
+        </View>
+      </View>
+    ))
+  };
+
   return (
     <View style={styles.title}>
       <Text style={styles.text}>Histórico de Ponto</Text>
@@ -11,11 +87,13 @@ export const PointHistory = () => {
         <TextInput
         style={styles.dateInput}
         placeholder= "DD/MM/AAAA"
+        onChangeText={(text) => setStartDate(text)}
         />
         <Text style={styles.dateInput}>à</Text>
         <TextInput
         style={styles.dateInput}
         placeholder= "DD/MM/AAAA"
+        onChangeText={(text) => setEndDate(text)}
         />
       </View>
       <Text>Nome do Colaborador</Text>
@@ -23,54 +101,18 @@ export const PointHistory = () => {
         <TextInput
         style={styles.nameInput}
         placeholder="Nome"
+        onChangeText={(text) => setName(text)}
         />
-        <Button title="Buscar" color={"green"} />
+        <Button title="Buscar" color={"green"} onPress={handleSearch} />
       </View>
-      <View>
-        <View>
-          <Text style={styles.dayLabel}>10/11/2023</Text>
+      {renderHistory()}
+      {/* <View style={styles.pageChange}>
+        <View style={styles.pageChangeCotent}>
+          <SiMicrosoftpowerpoint style={styles.iconsPages} />
+          <BsClockHistory style={styles.iconsPages} />
         </View>
-        <View>
-          <Text style={styles.hourRegisted}>08:00 {'>'} 12:00  </Text>
-          <Text style={styles.hourRegisted}>13:00 {'>'} 17:00  </Text>
-        </View>
-      </View>
-      <View>
-        <View>
-          <Text style={styles.dayLabel}>09/11/2023</Text>
-        </View>
-        <View>
-          <Text style={styles.hourRegisted}>08:00 {'>'} 12:00  </Text>
-          <Text style={styles.hourRegisted}>13:00 {'>'} 17:00  </Text>
-        </View>
-      </View>
-      <View>
-        <View>
-          <Text style={styles.dayLabel}>08/11/2023</Text>
-        </View>
-        <View>
-          <Text style={styles.hourRegisted}>08:00 {'>'} 12:00  </Text>
-          <Text style={styles.hourRegisted}>13:00 {'>'} 17:00  </Text>
-        </View>
-      </View>
-      <View>
-        <View>
-          <Text style={styles.dayLabel}>07/11/2023</Text>
-        </View>
-        <View>
-          <Text style={styles.hourRegisted}>08:00 {'>'} 12:00  </Text>
-          <Text style={styles.hourRegisted}>13:00 {'>'} 17:00  </Text>
-        </View>
-      </View>
-      <View>
-        <View>
-          <Text style={styles.dayLabel}>06/11/2023</Text>
-        </View>
-        <View>
-          <Text style={styles.hourRegisted}>08:00 {'>'} 12:00  </Text>
-          <Text style={styles.hourRegisted}>13:00 {'>'} 17:00  </Text>
-        </View>
-      </View>
+      </View> */}
     </View>
+    
   );
 };
