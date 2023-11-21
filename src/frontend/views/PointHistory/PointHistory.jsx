@@ -1,7 +1,6 @@
 import React, {useState} from "react";
-import { BsClockHistory } from "react-icons/bs";
-import { SiMicrosoftpowerpoint } from "react-icons/si";
 import { Text, View, Button, TextInput } from "react-native";
+import Icon from '@expo/vector-icons/MaterialIcons';
 import { styles } from "./styles";
 
 export const PointHistory = () => {
@@ -106,12 +105,12 @@ export const PointHistory = () => {
         <Button title="Buscar" color={"green"} onPress={handleSearch} />
       </View>
       {renderHistory()}
-      {/* <View style={styles.pageChange}>
+      <View style={styles.pageChange}>
         <View style={styles.pageChangeCotent}>
-          <SiMicrosoftpowerpoint style={styles.iconsPages} />
-          <BsClockHistory style={styles.iconsPages} />
+            <Icon name="engineering"/>
+            <Icon name="date-range"/>
         </View>
-      </View> */}
+      </View>
     </View>
     
   );

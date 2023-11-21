@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { View, Text, Image, Button, TextInput, ScrollView } from "react-native";
-import { BsClockHistory } from "react-icons/bs";
-import { SiMicrosoftpowerpoint } from "react-icons/si";
-import DayPointsHistory from "../../components/DayPointsHistory/DayPointsHistory";
+import Icon from '@expo/vector-icons/MaterialIcons';
+import { DayPointsHistory } from "../../components";
 import { styles } from "./styles";
 
 export const WorkerProfile = () => {
@@ -103,8 +102,8 @@ export const WorkerProfile = () => {
       </View>
       <View style={styles.pageChange}>
         <View style={styles.pageChangeCotent}>
-          <SiMicrosoftpowerpoint style={styles.iconsPages} />
-          <BsClockHistory style={styles.iconsPages} />
+            <Icon name="engineering"/>
+            <Icon name="date-range"/>
         </View>
       </View>
     </View>
