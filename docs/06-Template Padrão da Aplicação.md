@@ -4,24 +4,24 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-## Tela Histórico de Ponto 
 
-Além do microfundamento da etapa 3, também estudei a primeira unidade do microfundamento de Desenvolvimento de Aplicações Móveis. Abaixo estão alguns dos exercícios realizados:  
+## Tela de Login ##
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/a8e042c4-40b5-4ef2-a70b-d78a8609e2c5)  
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/22ab08b8-e7d3-435a-93b3-c25639fc81e5)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/147475f1-a8bc-4d3d-8010-99fc04b9ed77)
+## Tela de Registro de Senha ##
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/27f9806b-9a65-482e-adab-f141831c988f)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/ef501ac7-ba47-48a4-9679-24b81e6eb0f1)
 
-- Avanço na tela de Histórico:  
+## Tela de Registro de Contas ##
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/fe318097-f266-4a58-858c-891b08397680)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/813e0d25-7ec5-49eb-be41-7ae90b248793)
 
+## Tela de Perfil do Funcionário ##
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/5ef153f8-4176-4bcd-8e21-e361dd0d5b32)
+
+## Tela Histórico de Ponto  
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/114882542/8494620e-060f-4887-9cc2-f5f6349b5249)
+
