@@ -67,11 +67,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
-
+Várias empresas  possuem alguns  relacionados ao registro de horas trabalhadas por seus funcionários. Isso se deve ao uso de sistemas ineficazes ou a completa falta de uma ferramenta digital para esa tarefa. O registro de ponto eletrônico através de uma aplicação móvel permite com que as empresas realizem um controle mais efetivo do desempenho de seus funcionários, alem de permitir que estes também possam registrar sua atiidade de forma rápida e fácil e acompanhar seus respectivos bancos de horas.
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+A solução proposta é sistema via aplicativo para registro de horas trabalhadas, que permita um controle por parte das empresas e de seus funcionários dos registros de ponto.
 
 ### Processo 1 – NOME DO PROCESSO
 
@@ -80,8 +79,7 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em segu
 ![Processo 1](img/02-bpmn-proc1.png)
 
 ### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+A disponibilização de recursos de reconhecimento facial e de geolocalização no momento do registro do ponto.
 
 ![Processo 2](img/02-bpmn-proc2.png)
 
