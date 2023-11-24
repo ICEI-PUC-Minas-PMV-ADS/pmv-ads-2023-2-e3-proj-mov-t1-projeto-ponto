@@ -100,19 +100,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|:--:|
-|RF-001| A aplicação deve permitir a realização de cadastro, login, edição e exclusão de perfil de empresa. | ALTA |
-|RF-002| A aplicação deve permitir a realização de cadastro, login, edição e exclusão de perfil de funcionário. | ALTA |
-|RF-003| A aplicação deve permitir o registro e visualização de entrada e saída de funcionários. | ALTA |
-|RF-004| A aplicação deve permitir a geração de relatórios de histórico de ponto. | MÉDIA |
-|RF-005| A aplicação deve registrar endereço do funcionário no momento em que o ponto é registrado. | BAIXA |
-|RF-006| A aplicação deve registrar uma foto do funcionário no momento em que o ponto é registrado. | BAIXA |
-|RF-007| A aplicação deve permitir a premiação de funcionários por métricas como pontualidade e frequência. | BAIXA |
-|RF-008| A aplicação deve permitir a edição de registros de ponto por parte da empresa. | MÉDIA |
-|RF-009| A aplicação deve oferecer a funcionalidade de gerenciamento de permissões. | MÉDIA | 
-|RF-010| A aplicação deve permitir anexar documentos como atestados médicos e demais justificativas de ausência. | BAIXA |
-|RF-011| A aplicação deve permitir a visualização do saldo de banco de horas | MÉDIA |
+| ID |	Descrição do Requisito	| Prioridade |
+|---|---|:-:|
+| RF-001	| A aplicação deve permitir a realização de cadastro, login, edição e exclusão de perfil de empresa.| 	ALTA |
+| RF-002	| A aplicação deve permitir a realização de cadastro, login, edição e exclusão de perfil de funcionário.| 	ALTA |
+| RF-003	| A aplicação deve permitir o registro e visualização de entrada e saída de funcionários. |	ALTA |
+| RF-004	| A aplicação deve permitir a geração de relatórios de histórico de ponto.	| MÉDIA | 
+| RF-005	| A aplicação deve permitir a edição de registros de ponto por parte da empresa. |	MÉDIA |
+| RF-006	| A aplicação deve oferecer a funcionalidade de gerenciamento de permissões.	| MÉDIA | 
+| RF-007	| A aplicação deve permitir a visualização do saldo de banco de horas	| MÉDIA |
+
 
 
 
