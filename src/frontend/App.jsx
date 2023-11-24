@@ -24,6 +24,6 @@ export default function App() {
     //     <Stack.Screen name="Register" component={Register} />
     //   </Stack.Navigator>
     // </NavigationContainer>
-    <PointHistory/>
+    <WorkerProfile/>
   );
 }

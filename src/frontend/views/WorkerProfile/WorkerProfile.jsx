@@ -102,8 +102,8 @@ export const WorkerProfile = () => {
       </View>
       <View style={styles.pageChange}>
         <View style={styles.pageChangeCotent}>
-            <Icon name="engineering"/>
-            <Icon name="date-range"/>
+            <Icon name="engineering" style={styles.iconsPages} size={50} color={'gray'}/>
+            <Icon name="date-range" style={styles.iconsPages} size={50}/>
         </View>
       </View>
     </View>

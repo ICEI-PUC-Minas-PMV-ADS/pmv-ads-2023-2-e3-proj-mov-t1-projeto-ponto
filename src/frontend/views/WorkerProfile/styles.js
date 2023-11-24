@@ -41,7 +41,7 @@ export const styles = StyleSheet.create({
   },
   pageChangeCotent: {
     position: "absolute",
-    backgroundColor: "#1B4744",
+    backgroundColor: "green",
     gap: 20,
     padding: 10,
     flexDirection: "row",
