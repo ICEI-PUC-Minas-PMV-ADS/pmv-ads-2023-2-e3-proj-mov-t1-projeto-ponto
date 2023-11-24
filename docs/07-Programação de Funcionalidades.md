@@ -1,15 +1,12 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+| ID |	Descrição do Requisito	| Artefato |
+|---|---|:-:|
+| RF-001	| A aplicação deve permitir a realização de cadastro, login, edição e exclusão de perfil de empresa.| Register.jsx ; Login.jsx ; PasswordRegister.jsx |
+| RF-002	| A aplicação deve permitir a realização de cadastro, login, edição e exclusão de perfil de funcionário.| Register.jsx ; Login.jsx ; PasswordRegister.jsx |
+| RF-003	| A aplicação deve permitir o registro e visualização de entrada e saída de funcionários. |	WorkerProfile.jsx |
+| RF-004	| A aplicação deve permitir a geração de relatórios de histórico de ponto.	| PointHistory.jsx | 
+| RF-005	| A aplicação deve permitir a edição de registros de ponto por parte da empresa. |	PointHistory.jsx |
+| RF-006	| A aplicação deve oferecer a funcionalidade de gerenciamento de permissões.	| Register.jsx | 
+| RF-007	| A aplicação deve permitir a visualização do saldo de banco de horas	| WorkerProfile.jsx |
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
-
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
