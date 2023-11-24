@@ -42,5 +42,25 @@ export const styles = StyleSheet.create({
   hourRegisted: {
     marginTop: 5,
     color: "gray"
-  }
+  },
+  pageChange: {
+    position: "relative",
+    alignContent: "center",
+  },
+  pageChangeCotent: {
+    position: "absolute",
+    backgroundColor: "green",
+    gap: 20,
+    padding: 10,
+    flexDirection: "row",
+    borderRadius: 100,
+    position: "absolute",
+    top: 50,
+    zIndex: 1,
+  },
+  iconsPages: {
+    borderRadius: 100,
+    width: 50,
+    height: 50,
+  },
 });
