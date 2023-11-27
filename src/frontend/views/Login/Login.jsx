@@ -1,4 +1,5 @@
 import { SafeAreaView, Text, View, Image } from "react-native";
+import { Link } from "@react-navigation/native";
 import { Button, Input } from "../../components";
 import { styles } from "./styles";
 import { COLORS } from "../../constants";
@@ -15,6 +16,7 @@ export const Login = () => {
       </View>
       <Input label="Email" style={{ marginBottom: 25 }} password />
       <Input label="Senha" style={{ marginBottom: 25 }} password />
+      <Link to={{ screen: "Register" }}>Cadastre-se</Link>
       <View style={{ width: "100%" }}>
         <Button
           title="Entrar"

@@ -1,15 +1,11 @@
 import { View, TextInput, Text } from "react-native";
 import { styles } from "./styles";
 
-export const Input = ({ label, onChange, password = false, ...rest }) => {
+export const Input = ({ label, onChange, onChangeText, ...rest }) => {
   return (
-    <View {...rest}>
+    <View>
       <Text style={styles.label}>{label}</Text>
-      <TextInput
-        onChange={onChange}
-        style={styles.input}
-        secureTextEntry={password}
-      />
+      <TextInput onChangeText={onChangeText} style={styles.input} {...rest} />
     </View>
   );
 };

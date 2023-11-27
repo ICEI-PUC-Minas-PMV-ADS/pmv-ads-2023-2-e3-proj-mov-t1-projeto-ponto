@@ -1,46 +1,70 @@
-import { SafeAreaView, Text, View, Image } from "react-native";
+import { useEffect, useMemo } from "react";
+import { Text, View, Image, ScrollView, TextInput } from "react-native";
+import { useForm, Controller } from "react-hook-form";
 import { Button, Input } from "../../components";
 import { styles } from "./styles";
+import { inputs } from "./inputs";
 
-const INPUTS = {
-  ADMIN: [
-    { label: "Nome completo", type: "name" },
-    { label: "Email", type: "email" },
-    { label: "Cargo", type: "name" },
-    { label: "Senha", type: "password" },
-    { label: "Repita sua senha", type: "password" },
-  ],
-  WORKER: [
-    { label: "Nome completo", type: "name" },
-    { label: "Email", type: "email" },
-    { label: "Cargo", type: "name" },
-    { label: "Senha", type: "password" },
-    { label: "Repita sua senha", type: "password" },
-  ],
-};
+export const Register = ({ type = "ADMIN" }) => {
+  const {
+    control,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
-export const Register = ({ type }) => {
-  const renderInputs = () =>
-    INPUTS[type].map((input) => {
-      <Input label={input.label} name />;
-    });
+  const onSubmit = (data) => console.log("daaata", data);
+
+  const renderInputs = useMemo(() =>
+    inputs[type].map((input, index) => (
+      <Controller
+        key={index}
+        name={input.name}
+        control={control}
+        rules={input.rules}
+        render={({ field: { onChange, onBlur, value } }) => (
+          <Input
+            label={input.label}
+            onChangeText={onChange}
+            onBlur={onBlur}
+            value={value}
+            secureTextEntry={input.type === "password"}
+          />
+        )}
+      />
+    ))
+  );
 
   return (
-    <SafeAreaView style={styles.container}>
-      <View style={styles.logoContainer}>
-        <Image style={styles.logo} source={require("../../assets/icon.png")} />
-      </View>
-      <View style={{ marginBottom: 50 }}>
-        <Text style={styles.title}>Registrar (admin)</Text>
-        {renderInputs()}
-      </View>
-      <View style={{ width: "100%" }}>
+    <ScrollView>
+      <View style={styles.container}>
+        <View style={styles.logoContainer}>
+          <Image
+            style={styles.logo}
+            source={require("../../assets/icon.png")}
+          />
+        </View>
+        <View style={{ marginBottom: 50 }}>
+          <Text style={styles.title}>Registrar (admin)</Text>
+          {type === "ADMIN" && (
+            <Text>
+              Bem vindo :) Para começar crie uma conta que será responsável por
+              gerenciar os colaboradores e as demais informações da empresa.
+            </Text>
+          )}
+          {type === "COMPANY" && (
+            <Text>Agora preencha as informações da empresa</Text>
+          )}
+          {type === "WORKER" && (
+            <Text>Preencha os dados do colaborador abaixo</Text>
+          )}
+          {renderInputs}
+        </View>
         <Button
           title="Registrar"
-          onPress={() => console.log("teste")}
+          onPress={handleSubmit(onSubmit)}
           style={{ width: 300 }}
         />
       </View>
-    </SafeAreaView>
+    </ScrollView>
   );
 };
