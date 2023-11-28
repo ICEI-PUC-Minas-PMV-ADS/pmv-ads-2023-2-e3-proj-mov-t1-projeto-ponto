@@ -1,9 +1,14 @@
 import { SafeAreaView, Text, View, Image } from "react-native";
 import { Button, Input } from "../../components";
+import { Controller, useForm } from "react-hook-form";
 import { styles } from "./styles";
 import { COLORS } from "../../constants";
 
 export const PasswordRegister = () => {
+  const { control, handleSubmit } = useForm();
+
+  const onSubmit = (data) => console.log("data", data);
+
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.logoContainer}>
@@ -18,12 +23,40 @@ export const PasswordRegister = () => {
           O seu controle sem complicações
         </Text>
       </View>
-      <Input label="Senha" style={{ marginBottom: 25 }} password />
-      <Input label="Repita sua senha" style={{ marginBottom: 25 }} password />
+      <Controller
+        control={control}
+        name="password"
+        rules={{ required: "Campo obrigatório" }}
+        render={({ field: { onChange, onBlur, value } }) => (
+          <Input
+            label="Senha"
+            onChangeText={onChange}
+            onBlur={onBlur}
+            value={value}
+            style={{ marginBottom: 25 }}
+            secureTextEntry
+          />
+        )}
+      />
+      <Controller
+        control={control}
+        name="passwordConfirmation"
+        rules={{ required: "Campo obrigatório" }}
+        render={({ field: { onChange, onBlur, value } }) => (
+          <Input
+            label="Repita sua senha"
+            onChangeText={onChange}
+            onBlur={onBlur}
+            value={value}
+            style={{ marginBottom: 25 }}
+            secureTextEntry
+          />
+        )}
+      />
       <View style={{ width: "100%" }}>
         <Button
           title="Definir senha"
-          onPress={() => console.log("teste")}
+          onPress={handleSubmit(onSubmit)}
           style={{ width: 300 }}
         />
       </View>
