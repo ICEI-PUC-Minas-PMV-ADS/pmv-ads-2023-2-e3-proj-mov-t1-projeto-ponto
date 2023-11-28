@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName={isAdmin ? "Register" : "Login"}>
+      <Stack.Navigator initialRouteName={isAdmin ? "Register" : "WorkerProfile"}>
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="PasswordRegister" component={PasswordRegister} />
         <Stack.Screen name="PointHistory" component={PointHistory} />
@@ -24,6 +24,5 @@ export default function App() {
         <Stack.Screen name="Register" component={Register} />
       </Stack.Navigator>
     </NavigationContainer>
-    // <WorkerProfile/>
   );
 }

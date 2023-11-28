@@ -4,7 +4,7 @@ import Icon from '@expo/vector-icons/MaterialIcons';
 import { DayPointsHistory } from "../../components";
 import { styles } from "./styles";
 
-export const WorkerProfile = () => {
+export const WorkerProfile = ({ navigation }) => {
   const [currentDate, setCurrentDate] = useState("");
   const [OutWork, setOutWork] = useState(true);
   const [pointTake, setPointTake] = useState(Date);
@@ -103,7 +103,7 @@ export const WorkerProfile = () => {
       <View style={styles.pageChange}>
         <View style={styles.pageChangeCotent}>
             <Icon name="engineering" style={styles.iconsPages} size={50} color={'gray'}/>
-            <Icon name="date-range" style={styles.iconsPages} size={50}/>
+            <Icon name="date-range" onPress={() => navigation.navigate('PointHistory')} style={styles.iconsPages} size={50}/>
         </View>
       </View>
     </View>

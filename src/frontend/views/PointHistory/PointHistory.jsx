@@ -3,7 +3,7 @@ import { Text, View, Button, TextInput } from "react-native";
 import Icon from '@expo/vector-icons/MaterialIcons';
 import { styles } from "./styles";
 
-export const PointHistory = () => {
+export const PointHistory = ({ navigation }) => {
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
   const [name, setName] = useState("");
@@ -107,7 +107,7 @@ export const PointHistory = () => {
       {renderHistory()}
       <View style={styles.pageChange}>
         <View style={styles.pageChangeCotent}>
-            <Icon name="engineering" style={styles.iconsPages} size={50}/>
+            <Icon name="engineering" onPress={() => navigation.navigate('WorkerProfile')} style={styles.iconsPages} size={50}/>
             <Icon name="date-range" style={styles.iconsPages} size={50} color={'gray'}/>
         </View>
       </View>
