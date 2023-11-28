@@ -1,16 +1,12 @@
-import { useEffect, useMemo } from "react";
-import { Text, View, Image, ScrollView, TextInput } from "react-native";
+import { useMemo } from "react";
+import { Text, View, Image, ScrollView } from "react-native";
 import { useForm, Controller } from "react-hook-form";
 import { Button, Input } from "../../components";
 import { styles } from "./styles";
 import { inputs } from "./inputs";
 
 export const Register = ({ type = "ADMIN" }) => {
-  const {
-    control,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
+  const { control, handleSubmit } = useForm();
 
   const onSubmit = (data) => console.log("daaata", data);
 
