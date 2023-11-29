@@ -9,6 +9,7 @@ export const inputs = {
       label: "Email",
       name: "email",
       rules: { required: "Campo obrigatório" },
+      props: { returnKeyType: "next" },
     },
     {
       label: "Cargo",

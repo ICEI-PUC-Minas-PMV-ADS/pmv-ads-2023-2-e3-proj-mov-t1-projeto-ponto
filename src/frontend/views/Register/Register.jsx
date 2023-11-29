@@ -1,14 +1,18 @@
-import { useMemo } from "react";
+import { useMemo, useContext } from "react";
 import { Text, View, Image, ScrollView } from "react-native";
 import { useForm, Controller } from "react-hook-form";
 import { Button, Input } from "../../components";
 import { styles } from "./styles";
 import { inputs } from "./inputs";
+import { AuthContext } from "../../context";
 
-export const Register = ({ type = "ADMIN" }) => {
+export const Register = ({ route, navigation }) => {
+  const { type = "ADMIN" } = route.params;
   const { control, handleSubmit } = useForm();
 
-  const onSubmit = (data) => console.log("daaata", data);
+  const { signUp } = useContext(AuthContext);
+
+  const onSubmit = (formData) => signUp({ ...formData, type });
 
   const renderInputs = useMemo(() =>
     inputs[type].map((input, index) => (
@@ -24,6 +28,7 @@ export const Register = ({ type = "ADMIN" }) => {
             onBlur={onBlur}
             value={value}
             secureTextEntry={input.type === "password"}
+            {...input.props}
           />
         )}
       />
