@@ -1,19 +1,61 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+Caso de Teste	CT-01 – Login do Admin
+Requisito Associado	RF-001 e RF-002 - O Admin pode fazer login no sistema.
+Objetivo do Teste	Verificar se o Admin consegue fazer login na aplicação.
+Passos	- Acessar a site;
+- Clicar em "Login";
+- Preencher os campos obrigatórios;
+- Clicar em "Entrar";
+Critério de Êxito	Redirecionamento para a tela com as informações da empresa e funcionários.
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+Caso de Teste	CT-02 – Criar contas funcionários e empresas
+Requisito Associado	RF-001 e RF-002 - O Admin pode criar uma conta para empresa e funcionários
+Objetivo do Teste	Verificar se o Admin pode criar conta
+Passos	- Acessar a aplicação;
+- Clicar em "Login";
+-Clicar em criar conta
+- Preencher os campos obrigatórios;
+- Clicar em "Enviar";
+Critério de Êxito	Redirecionamento para a tela de login.
+
+
+Caso de Teste	CT-03 Fazer Login - funcionários e empresas
+Requisito Associado	RF-001 e RF-002 – Os funcionários e empresas podem logar no sistema
+Objetivo do Teste	Verificar se os usuários podem logar em suas contas
+Passos	- Acessar a aplicação;
+- Clicar em "Login";
+- Preencher os campos obrigatórios;
+- Clicar em "Login";
+Critério de Êxito	Redirecionamento para a tela inicial
+
+
+Caso de Teste	CT-04 Registro e visualização de ponto 
+Requisito Associado	RF-003 – Os funcionários podem registrar e visualizar o ponto
+Objetivo do Teste	Verificar se os usuários conseguem registrar o ponto e visualizar o registro
+Passos	- Acessar a aplicação;
+- Clicar em "Login";
+- Registrar Ponto
+Critério de Êxito	Redirecionamento para tela inicial
+
+
+Caso de Teste	CT-05 Geração de relatórios do histórico de ponto 
+Requisito Associado	RF-004 e RF-007 – Os funcionários podem visualizar o histórico de ponto e o banco de horas
+Objetivo do Teste	Verificar se os usuários conseguem visualizar seus registros e banco de horas
+Passos	- Acessar a aplicação;
+- Clicar em "Login";
+- Clicar em “Histórico de Ponto”
+Critério de Êxito	Visualiza o histórico de ponto e banco de horas
+
+
+Caso de Teste	CT-06 Edição de registros de ponto por parte da empresa
+Requisito Associado	RF-005 – A empresa pode editar o registro de pontos para corrigir eventuais falhas
+Objetivo do Teste	Verificar se a empresa consegue editar os registros de seus funcionários
+Passos	- Acessar a aplicação;
+- Clicar em "Login";
+- Acessar “Histórico de Ponto”
+- Editar informações
+Critério de Êxito	A empresa consegue editar os registros 
+
