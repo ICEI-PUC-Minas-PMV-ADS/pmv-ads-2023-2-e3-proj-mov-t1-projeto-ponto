@@ -1,6 +1,5 @@
 import { useMemo, useReducer } from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import md5 from "md5";
 import {
   Login,
   PasswordRegister,
@@ -10,7 +9,7 @@ import {
 } from "../views";
 import { authReducer } from "../reducers";
 import { AuthContext } from "../context";
-import { userServices } from "../services/user/userServices";
+import { userServices, authServices } from "../services";
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -24,13 +23,15 @@ export function AppRoutes() {
   const [authState, dispatch] = useReducer(authReducer, DEFAULT_AUTH_OBJECT);
 
   const authContext = useMemo(() => ({
-    signIn: async (data) => {
-      dispatch({ type: "SIGN_IN", token: "dummy-auth-token" });
+    signIn: async (userData) => {
+      const userInfo = await authServices.login(userData);
+      const dummyToken = authServices.generateDummyToken(userData);
+      dispatch({ type: "SIGN_IN", userInfo, token: dummyToken });
     },
     signOut: () => dispatch({ type: "SIGN_OUT" }),
     signUp: async (userData) => {
       const userInfo = await userServices.registerUser(userData);
-      const dummyToken = md5(userInfo);
+      const dummyToken = authServices.generateDummyToken(userData);
       dispatch({ type: "SIGN_IN", userInfo, token: dummyToken });
     },
   }));

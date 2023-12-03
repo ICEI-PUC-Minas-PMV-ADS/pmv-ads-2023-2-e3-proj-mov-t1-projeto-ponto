@@ -1,14 +1,17 @@
+import { useContext } from "react";
 import { SafeAreaView, Text, View, Image } from "react-native";
 import { Link } from "@react-navigation/native";
 import { useForm, Controller } from "react-hook-form";
 import { Button, Input } from "../../components";
 import { styles } from "./styles";
 import { COLORS } from "../../constants";
+import { AuthContext } from "../../context";
 
 export const Login = () => {
   const { control, handleSubmit } = useForm();
+  const { signIn } = useContext(AuthContext);
 
-  const onSubmit = (data) => console.log("data", data);
+  const onSubmit = (formData) => signIn(formData);
 
   return (
     <SafeAreaView style={styles.container}>

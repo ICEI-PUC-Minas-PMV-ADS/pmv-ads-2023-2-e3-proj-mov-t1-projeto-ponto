@@ -6,16 +6,16 @@ export class companyServices {
       const { data } = await api.post("/company", companyInfo);
       return data;
     } catch (error) {
-      throw new Error("Erro ao cadastrar usuário");
+      throw new Error("Erro ao cadastrar empresa");
     }
   }
 
   static async updateCompany(companyInfo) {
     try {
-      const response = await api.put(`/users/${companyInfo.id}`, companyInfo);
-      return response;
+      const { data } = await api.put(`/company/${companyInfo.id}`, companyInfo);
+      return data;
     } catch (error) {
-      throw new Error("Erro ao cadastrar usuário");
+      throw new Error("Erro ao atualizar empresa");
     }
   }
 }
