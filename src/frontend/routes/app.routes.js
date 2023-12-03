@@ -40,7 +40,19 @@ export function AppRoutes() {
   return (
     <AuthContext.Provider value={authContext}>
       <Navigator screenOptions={{ headerShown: false }}>
-        {!isSignedIn ? (
+      {!isSignedIn ? (
+          <>
+            <Screen name="PointHistory" component={PointHistory} />
+            <Screen name="WorkerProfile" component={WorkerProfile} />
+          </>
+        ) : (
+          <>
+            <Screen name="PointHistory" component={PointHistory} />
+            <Screen name="WorkerProfile" component={WorkerProfile} />
+          </>
+        )}
+
+        {/* {!isSignedIn ? (
           <>
             <Screen name="Login" component={Login} />
             <Screen name="PasswordRegister" component={PasswordRegister} />
@@ -50,7 +62,7 @@ export function AppRoutes() {
             <Screen name="PointHistory" component={PointHistory} />
             <Screen name="WorkerProfile" component={WorkerProfile} />
           </>
-        )}
+        )} */}
         <Screen
           navigationKey={isSignedIn ? "user" : "guest"}
           name="Register"

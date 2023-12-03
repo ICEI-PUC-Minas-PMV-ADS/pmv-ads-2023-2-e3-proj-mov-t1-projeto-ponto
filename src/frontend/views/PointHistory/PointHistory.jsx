@@ -54,8 +54,48 @@ export const PointHistory = ({ navigation }) => {
           { start: "13:00", end: "17:00" },
         ],
       },
-
-      // Adicione mais dados conforme necessário
+      {
+        date: "10/11/2023",
+        hours: [
+          { start: "08:00", end: "12:00" },
+          { start: "13:00", end: "17:00" },
+        ],
+      },
+      {
+        date: "11/11/2023",
+        hours: [
+          { start: "08:00", end: "12:00" },
+          { start: "13:00", end: "17:00" },
+        ],
+      },
+      {
+        date: "12/11/2023",
+        hours: [
+          { start: "08:00", end: "12:00" },
+          { start: "13:00", end: "17:00" },
+        ],
+      },
+      {
+        date: "13/11/2023",
+        hours: [
+          { start: "08:00", end: "12:00" },
+          { start: "13:00", end: "17:00" },
+        ],
+      },
+      {
+        date: "14/11/2023",
+        hours: [
+          { start: "08:00", end: "12:00" },
+          { start: "13:00", end: "17:00" },
+        ],
+      },
+      {
+        date: "15/11/2023",
+        hours: [
+          { start: "08:00", end: "12:00" },
+          { start: "13:00", end: "17:00" },
+        ],
+      },
     ];
 
     setHistoryData(exampleData);
@@ -79,39 +119,40 @@ export const PointHistory = ({ navigation }) => {
   };
 
   return (
-    <View style={styles.title}>
-      <Text style={styles.text}>Histórico de Ponto</Text>
-      <Text>Período de Busca</Text>
-      <View style={styles.dateInputContainer}>
-        <TextInput
-        style={styles.dateInput}
-        placeholder= "DD/MM/AAAA"
-        onChangeText={(text) => setStartDate(text)}
-        />
-        <Text style={styles.dateInput}>à</Text>
-        <TextInput
-        style={styles.dateInput}
-        placeholder= "DD/MM/AAAA"
-        onChangeText={(text) => setEndDate(text)}
-        />
+    <View style={styles.container}>
+      <View style={styles.title}>
+        <Text style={styles.text}>Histórico de Ponto</Text>
+        <Text>Período de Busca</Text>
+        <View style={styles.dateInputContainer}>
+          <TextInput
+          style={styles.dateInput}
+          placeholder= "DD/MM/AAAA"
+          onChangeText={(text) => setStartDate(text)}
+          />
+          <Text style={styles.dateInput}>à</Text>
+          <TextInput
+          style={styles.dateInput}
+          placeholder= "DD/MM/AAAA"
+          onChangeText={(text) => setEndDate(text)}
+          />
+        </View>
+        <Text>Nome do Colaborador</Text>
+        <View style={styles.searchBar}>
+          <TextInput
+          style={styles.nameInput}
+          placeholder="Nome"
+          onChangeText={(text) => setName(text)}
+          />
+          <Button title="Buscar" color={"green"} onPress={handleSearch} />
+        </View>
+        {renderHistory()}
       </View>
-      <Text>Nome do Colaborador</Text>
-      <View style={styles.searchBar}>
-        <TextInput
-        style={styles.nameInput}
-        placeholder="Nome"
-        onChangeText={(text) => setName(text)}
-        />
-        <Button title="Buscar" color={"green"} onPress={handleSearch} />
-      </View>
-      {renderHistory()}
       <View style={styles.pageChange}>
         <View style={styles.pageChangeCotent}>
-            <Icon name="engineering" onPress={() => navigation.navigate('WorkerProfile')} style={styles.iconsPages} size={50}/>
-            <Icon name="date-range" style={styles.iconsPages} size={50} color={'gray'}/>
+          <Icon name="engineering" onPress={() => navigation.navigate('WorkerProfile')} style={styles.iconsPages} size={30}/>
+          <Icon name="date-range" style={styles.iconsPages} size={30} color={'white'}/>
         </View>
       </View>
     </View>
-    
   );
 };
