@@ -1,25 +1,41 @@
 import { useEffect, useState } from "react";
-import { View, Text, Image, Button, TextInput, ScrollView } from "react-native";
+import { View, Text, Button, TextInput, ScrollView } from "react-native";
 import Icon from '@expo/vector-icons/MaterialIcons';
 import { DayPointsHistory } from "../../components";
 import { styles } from "./styles";
+import moment from "moment/moment";
 
 export const WorkerProfile = ({ navigation }) => {
   const [currentDate, setCurrentDate] = useState("");
   const [OutWork, setOutWork] = useState(true);
-  const [pointTake, setPointTake] = useState(Date);
-  const [pointEnd, setPointEnd] = useState(Date);
-  const [extraHour, setExtraHour] = useState(Date);
+  const [pointTake, setPointTake] = useState("");
+  const [pointEnd, setPointEnd] = useState("");
+  const [extraHour, setExtraHour] = useState(0);
   const [justifyFault, setJustifyFault] = useState("");
 
   const startWork = () => {
-    setPointTake(currentDate);
+    setPointTake(new Date());
     setOutWork(false);
   };
   const finishWork = () => {
-    setPointEnd(currentDate);
+    setPointEnd(new Date());
     setOutWork(true);
+    extraHourCal()
   };
+  
+  
+  const extraHourCal = () => {
+    const hour = 8 * 60 * 60 * 1000;
+    const point = pointEnd - pointTake;
+    console.log(pointTake);
+    console.log(pointEnd);
+    console.log(point, "point");
+    if (point > 10) {
+      setExtraHour((extraHour + (point -10)))
+      console.log(extraHour, "extra");
+    }
+  }
+
 
   const faultJustify = () => {};
 
@@ -41,12 +57,6 @@ export const WorkerProfile = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Image
-          style={styles.workerpic}
-          source={{
-            uri: "https://reactnative.dev/img/tiny_logo.png",
-          }}
-        />
         <Text style={{ fontSize: 30, color: "white" }}>Worker Name</Text>
         <Text style={{ fontSize: 20, color: "white" }}>worker@email.com</Text>
       </View>
@@ -69,7 +79,7 @@ export const WorkerProfile = ({ navigation }) => {
           <Text style={{ fontSize: 20, fontWeight: "bold" }}>
             Total horas extras
           </Text>
-          <Text style={{ fontSize: 15, fontWeight: "bold" }}>{extraHour}</Text>
+          <Text style={{ fontSize: 15, fontWeight: "bold" }}>{moment(extraHour).format("HH:MM")}</Text>
         </View>
         <View style={{ marginLeft: 20, marginRight: 20, borderBottomWidth: 1 }}>
           <Text
