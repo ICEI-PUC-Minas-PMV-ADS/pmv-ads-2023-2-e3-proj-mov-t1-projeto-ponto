@@ -7,10 +7,13 @@ export class userServices {
 
       delete data.password;
       delete data.passwordConfirmation;
+      
+      console.log("data",data)
 
       return data;
     } catch (error) {
-      throw new Error("Erro ao cadastrar usuário");
+      console.log("Erro aquiiii",error.toJSON())
+      // throw new Error("Erro ao cadastrar usuário");
     }
   }
   static async updateUser(userInfo) {
@@ -18,7 +21,7 @@ export class userServices {
       const response = await api.put(`/users/${userInfo.id}`, userInfo);
       return response;
     } catch (error) {
-      throw new Error("Erro ao cadastrar usuário");
+      throw new Error("Erro ao atualizar usuário");
     }
   }
 }

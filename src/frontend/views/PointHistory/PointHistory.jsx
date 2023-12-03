@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Text, View, Button, TextInput } from "react-native";
+import { Text, View, Button, TextInput, ScrollView } from "react-native";
 import Icon from '@expo/vector-icons/MaterialIcons';
 import { styles } from "./styles";
 
@@ -145,7 +145,11 @@ export const PointHistory = ({ navigation }) => {
           />
           <Button title="Buscar" color={"green"} onPress={handleSearch} />
         </View>
+      </View>
+      <View style={styles.history}>
+        <ScrollView>
         {renderHistory()}
+        </ScrollView>
       </View>
       <View style={styles.pageChange}>
         <View style={styles.pageChangeCotent}>

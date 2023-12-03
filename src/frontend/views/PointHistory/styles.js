@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     paddingTop: 50,
     paddingLeft: 15,
-    paddingBottom: 100,
+    paddingBottom: 10,
   },
   text: {
     fontSize: 30,
@@ -46,6 +46,9 @@ export const styles = StyleSheet.create({
   hourRegisted: {
     marginTop: 5,
     color: "gray"
+  },
+  history: {
+    paddingBottom: 10,
   },
   pageChange: {
     position: 'absolute',
