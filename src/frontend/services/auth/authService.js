@@ -8,6 +8,10 @@ export class authServices {
     try {
       const { data } = await api.get(`/users?email=${email}`);
       const userInfo = data[0];
+      
+      if (userInfo.password !== loginInfo.password){
+        throw new Error ("Usuário ou senha incorretos")
+      }
 
       delete userInfo.password;
       delete userInfo.passwordConfirmation;
