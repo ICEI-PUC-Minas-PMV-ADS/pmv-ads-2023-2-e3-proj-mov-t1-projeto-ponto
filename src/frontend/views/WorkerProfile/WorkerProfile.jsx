@@ -112,8 +112,8 @@ export const WorkerProfile = ({ navigation }) => {
       </View>
       <View style={styles.pageChange}>
         <View style={styles.pageChangeCotent}>
-            <Icon name="engineering" style={styles.iconsPages} size={50} color={'gray'}/>
-            <Icon name="date-range" onPress={() => navigation.navigate('PointHistory')} style={styles.iconsPages} size={50}/>
+            <Icon name="engineering" style={styles.iconsPages} size={30} color={'white'}/>
+            <Icon name="date-range" onPress={() => navigation.navigate('PointHistory')} style={styles.iconsPages} size={30}/>
         </View>
       </View>
     </View>

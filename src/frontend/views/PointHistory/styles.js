@@ -1,6 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
 
 export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#ffffff'
+  },
   title: {
     backgroundColor: "#ffffff",
     alignItems: "flex-start",
@@ -44,23 +48,23 @@ export const styles = StyleSheet.create({
     color: "gray"
   },
   pageChange: {
-    position: "relative",
-    alignContent: "center",
+    position: 'absolute',
+    bottom: 20,
+    left: "40%",
+    backgroundColor: 'green', // ou a cor desejada
+    padding: 10,
+    borderRadius: 100,
   },
   pageChangeCotent: {
-    position: "absolute",
-    backgroundColor: "green",
+    flexDirection: 'row',
+    // alignItems: 'center',
+    justifyContent: 'space-around',
     gap: 20,
-    padding: 10,
-    flexDirection: "row",
-    borderRadius: 100,
-    position: "absolute",
-    top: 50,
-    zIndex: 1,
+ 
   },
   iconsPages: {
-    borderRadius: 100,
-    width: 50,
-    height: 50,
+    // width: 60,
+    // height: 30,
+    // padding: 5,
   },
 });

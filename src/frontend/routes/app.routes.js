@@ -51,7 +51,7 @@ export function AppRoutes() {
             <Screen name="PointHistory" component={PointHistory} />
             <Screen name="WorkerProfile" component={WorkerProfile} />
           </>
-        )}
+        )} 
         <Screen
           navigationKey={isSignedIn ? "user" : "guest"}
           name="Register"
