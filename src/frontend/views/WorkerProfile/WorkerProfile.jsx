@@ -30,8 +30,8 @@ export const WorkerProfile = ({ navigation }) => {
     console.log(pointTake);
     console.log(pointEnd);
     console.log(point, "point");
-    if (point > 10) {
-      setExtraHour((extraHour + (point -10)))
+    if (point > hour) {
+      setExtraHour((extraHour + (point - hour)))
       console.log(extraHour, "extra");
     }
   }
