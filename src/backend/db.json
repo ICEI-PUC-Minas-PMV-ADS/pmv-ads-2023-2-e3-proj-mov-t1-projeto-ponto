@@ -1,4 +1,16 @@
 {
-  "users": [],
-  "companies": []
+  "users": [
+    {
+      "id_user": 1,
+      "name": "Felipe",
+      "Email": "Fe",
+      "password": "f"
+    }
+  ],
+  "companies": [],
+  "points":[
+    {
+      
+    }
+  ]
 }

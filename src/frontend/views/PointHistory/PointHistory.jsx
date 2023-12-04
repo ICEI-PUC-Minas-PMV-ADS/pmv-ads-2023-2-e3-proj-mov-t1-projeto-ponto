@@ -55,42 +55,42 @@ export const PointHistory = ({ navigation }) => {
         ],
       },
       {
-        date: "10/11/2023",
+        date: "16/11/2023",
         hours: [
           { start: "08:00", end: "12:00" },
           { start: "13:00", end: "17:00" },
         ],
       },
       {
-        date: "11/11/2023",
+        date: "17/11/2023",
         hours: [
           { start: "08:00", end: "12:00" },
           { start: "13:00", end: "17:00" },
         ],
       },
       {
-        date: "12/11/2023",
+        date: "18/11/2023",
         hours: [
           { start: "08:00", end: "12:00" },
           { start: "13:00", end: "17:00" },
         ],
       },
       {
-        date: "13/11/2023",
+        date: "19/11/2023",
         hours: [
           { start: "08:00", end: "12:00" },
           { start: "13:00", end: "17:00" },
         ],
       },
       {
-        date: "14/11/2023",
+        date: "20/11/2023",
         hours: [
           { start: "08:00", end: "12:00" },
           { start: "13:00", end: "17:00" },
         ],
       },
       {
-        date: "15/11/2023",
+        date: "21/11/2023",
         hours: [
           { start: "08:00", end: "12:00" },
           { start: "13:00", end: "17:00" },
@@ -153,8 +153,8 @@ export const PointHistory = ({ navigation }) => {
       </View>
       <View style={styles.pageChange}>
         <View style={styles.pageChangeCotent}>
-          <Icon name="engineering" onPress={() => navigation.navigate('WorkerProfile')} style={styles.iconsPages} size={30}/>
-          <Icon name="date-range" style={styles.iconsPages} size={30} color={'white'}/>
+          <Icon name="engineering" onPress={() => navigation.navigate('WorkerProfile')} size={30}/>
+          <Icon name="date-range" size={30} color={'white'}/>
         </View>
       </View>
     </View>

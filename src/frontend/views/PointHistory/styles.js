@@ -48,13 +48,13 @@ export const styles = StyleSheet.create({
     color: "gray"
   },
   history: {
-    paddingBottom: 10,
+    paddingLeft: 30,
   },
   pageChange: {
     position: 'absolute',
     bottom: 20,
     left: "40%",
-    backgroundColor: 'green', // ou a cor desejada
+    backgroundColor: 'green', 
     padding: 10,
     borderRadius: 100,
   },
@@ -64,10 +64,6 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-around',
     gap: 20,
  
-  },
-  iconsPages: {
-    // width: 60,
-    // height: 30,
-    // padding: 5,
-  },
+  }
+
 });
