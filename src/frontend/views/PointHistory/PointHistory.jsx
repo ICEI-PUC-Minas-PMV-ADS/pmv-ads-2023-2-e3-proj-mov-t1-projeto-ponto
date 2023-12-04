@@ -9,96 +9,22 @@ export const PointHistory = ({ navigation }) => {
   const [name, setName] = useState("");
   const [historyData, setHistoryData] = useState([]);
 
-  const handleSearch = () => {
+  const handleSearch = async () => {
     // lógica de busca
-    const exampleData = [
-      {
-        date: "10/11/2023",
-        hours: [
-          { start: "08:00", end: "12:00" },
-          { start: "13:00", end: "17:00" },
-        ],
-      },
-      {
-        date: "11/11/2023",
-        hours: [
-          { start: "08:00", end: "12:00" },
-          { start: "13:00", end: "17:00" },
-        ],
-      },
-      {
-        date: "12/11/2023",
-        hours: [
-          { start: "08:00", end: "12:00" },
-          { start: "13:00", end: "17:00" },
-        ],
-      },
-      {
-        date: "13/11/2023",
-        hours: [
-          { start: "08:00", end: "12:00" },
-          { start: "13:00", end: "17:00" },
-        ],
-      },
-      {
-        date: "14/11/2023",
-        hours: [
-          { start: "08:00", end: "12:00" },
-          { start: "13:00", end: "17:00" },
-        ],
-      },
-      {
-        date: "15/11/2023",
-        hours: [
-          { start: "08:00", end: "12:00" },
-          { start: "13:00", end: "17:00" },
-        ],
-      },
-      {
-        date: "16/11/2023",
-        hours: [
-          { start: "08:00", end: "12:00" },
-          { start: "13:00", end: "17:00" },
-        ],
-      },
-      {
-        date: "17/11/2023",
-        hours: [
-          { start: "08:00", end: "12:00" },
-          { start: "13:00", end: "17:00" },
-        ],
-      },
-      {
-        date: "18/11/2023",
-        hours: [
-          { start: "08:00", end: "12:00" },
-          { start: "13:00", end: "17:00" },
-        ],
-      },
-      {
-        date: "19/11/2023",
-        hours: [
-          { start: "08:00", end: "12:00" },
-          { start: "13:00", end: "17:00" },
-        ],
-      },
-      {
-        date: "20/11/2023",
-        hours: [
-          { start: "08:00", end: "12:00" },
-          { start: "13:00", end: "17:00" },
-        ],
-      },
-      {
-        date: "21/11/2023",
-        hours: [
-          { start: "08:00", end: "12:00" },
-          { start: "13:00", end: "17:00" },
-        ],
-      },
-    ];
 
-    setHistoryData(exampleData);
+    try {
+      const response = await fetch('http://localhost:3000/points');
+      const data = await response.json();
+
+      const filteredData = data.filter(item => (
+        item.date >= startDate && item.date <= endDate &&
+        item.hours.some(hour => hour.start.includes(name) || hour.end.includes(name))
+      ));
+
+      setHistoryData(filteredData);
+    } catch (error) {
+      console.error('Erro ao buscar dados:', error);
+    }
   };
 
   const renderHistory = () => {
