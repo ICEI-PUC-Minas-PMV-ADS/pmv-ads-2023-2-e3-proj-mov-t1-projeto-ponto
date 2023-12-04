@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { View, Text, Button, TextInput, ScrollView } from "react-native";
 import Icon from '@expo/vector-icons/MaterialIcons';
-import { DayPointsHistory } from "../../components";
 import { styles } from "./styles";
 import moment from "moment/moment";
+import { PointServices } from "../../services/point/pointServices";
 
 export const WorkerProfile = ({ navigation }) => {
   const [currentDate, setCurrentDate] = useState("");
@@ -21,15 +21,20 @@ export const WorkerProfile = ({ navigation }) => {
     setPointEnd(new Date());
     setOutWork(true);
     extraHourCal()
+    registerPoint()
   };
   
+  const registerPoint = async () => {
+    try {
+      await PointServices.registerPoint({end: pointEnd, start: pointTake})
+    } catch (error) {
+      console.log(error);
+    }
+  }
   
   const extraHourCal = () => {
     const hour = 8 * 60 * 60 * 1000;
     const point = pointEnd - pointTake;
-    console.log(pointTake);
-    console.log(pointEnd);
-    console.log(point, "point");
     if (point > hour) {
       setExtraHour((extraHour + (point - hour)))
       console.log(extraHour, "extra");
@@ -80,21 +85,6 @@ export const WorkerProfile = ({ navigation }) => {
             Total horas extras
           </Text>
           <Text style={{ fontSize: 15, fontWeight: "bold" }}>{moment(extraHour).format("HH:MM")}</Text>
-        </View>
-        <View style={{ marginLeft: 20, marginRight: 20, borderBottomWidth: 1 }}>
-          <Text
-            style={{
-              textAlign: "center",
-              borderBottomWidth: 1,
-              fontSize: 20,
-              fontWeight: "bold",
-            }}
-          >
-            Pontos do dia
-          </Text>
-          <ScrollView>
-            <DayPointsHistory />
-          </ScrollView>
         </View>
         <View style={styles.content}>
           <TextInput
