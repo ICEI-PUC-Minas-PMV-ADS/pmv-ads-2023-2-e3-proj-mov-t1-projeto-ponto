@@ -1,7 +1,4 @@
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/108704270/f8dca828-c447-4e43-b7b2-b47a9ecb64f9
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t1-projeto-ponto/assets/108704270/fe443e64-fd97-4469-af0a-1cf26457c6f3
 # Registro de Testes de Software
 Caso de Teste CT-01 – Login do Admin
 
