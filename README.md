@@ -16,7 +16,7 @@ O software "PROJETO-PONTO" é uma ferramenta que permite registrar e controlar a
 * Leonardo Igor Araujo de Souza
 * Ian Merlo Correa
 * Vinicius Carneiro Gonçalves
-* Mateus Borges Martins da Silva
+
 
 ## Orientador
 
